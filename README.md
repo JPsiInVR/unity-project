@@ -6,8 +6,9 @@ This repository contains unity project with all assets,  which will be used in V
 - [Requirements](#requirements)
 - [Setup](#setup)
   * [Fork  setup](#fork--setup)
-  * [Cloning repository](#cloning-repository)
-  * [LFS Setup](#lfs-setup)
+  * [Cloning repository](#cloning-repository-fork)
+  * [LFS Setup (Fork)](#lfs-setup-fork)
+  * [LFS Setup (Console)](#lfs-setup-console)
   * [Adding project to unity](#adding-project-to-unity)
 - [Workflow](#workflow)
   * [File locking](#file-locking)
@@ -45,9 +46,7 @@ Here, we switch to the Integration tab and we set values of Merge Tool section.
 
 ![fork-unityyamlmerge-setup](https://i.imgur.com/RZhSGdZ.png)
 
-The same thing needs to be done inside git config file. But first we need to clone project.
-
-### Cloning repository
+### Cloning repository (Fork)
 
 To clone repository go to File > Clone:
 
@@ -55,14 +54,25 @@ Here enter repository URL: https://github.com/JPsiInVR/UnityProject.git and sele
 
 ![fork-cloning-repository](https://i.imgur.com/S9mAI12.png)
 
-### LFS Setup
+### LFS Setup (Fork)
+If you are using git from console you can skip this section.
+
 To initialize lfs go to Repository > Git LFS > Initialize Git LFS
 
 ![fork-lfs-setup](https://i.imgur.com/l6LvKcJ.png)
 
 Git LFS keeps old files in local storage,  so they don`t have to be redownloaded when switching commits. In case it gets too large use Repository > Git LFS > Prune
 
-### Adding pre-commit hook for file locking
+### LFS Setup (Console)
+If you are using fork you can skip this section.
+
+To initialize lfs go to console and use command:
+
+```bash
+git lfs install
+```
+
+### Adding pre-commit hook for file locking 
 Now we will add pre commit hook which will prevent us from committing files which are locked and will save us the hassle of reverting it, because we won`t be able to push it anyway.
 Detailed instruction on how to do that is here:
 
@@ -72,6 +82,7 @@ Download whole repository as ZIP, unpack it, copy precommit file to .git/hooks a
 
 https://github.com/wanadev/git-lfs-lock-pre-commit-hook
 ![add-precommit-hook](https://i.imgur.com/cMbMSvh.png)
+
 
 ### Adding project to unity 
 
@@ -103,6 +114,13 @@ When you begin work on binary file (image, audio, video, 3D models) you should f
 To lock/unlock a file go to File Tree tab, find the file you want, right click on it and select LFS > Lock / Unlock
 
 ![fork-locking-files](https://i.imgur.com/m9Q85Bf.png)
+
+If you are using git from console you can use commands
+
+```bash
+git lfs lock ...
+git lfs unlock ...
+```
 
 ## Troubleshooting
 If your unity project have some broken things like missing objects or broken prefabs you can try to reimport to force reload. First off I suggest reimporting models and prefabs folders. To do this right click on these folders and select reimport.
