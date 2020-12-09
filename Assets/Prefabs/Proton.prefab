@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4444975446759933642}
   - component: {fileID: 8485068070715588132}
   - component: {fileID: 1193895662}
+  - component: {fileID: 3661838720848332993}
   m_Layer: 0
   m_Name: Proton
   m_TagString: Untagged
@@ -102,6 +103,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3661838720848332993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661803545116570902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98552d4721821c419fd1ae82a95024a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6767049276797635721
 GameObject:
   m_ObjectHideFlags: 0
