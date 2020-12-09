@@ -28,19 +28,28 @@ public class PositronMovement : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.name == electron.name){
+        if (other.name == electron.name)
+        {
             StartCoroutine(SpawnJpsi());
-            Instantiate(explosion, new Vector3(5, 1, 0), Quaternion.identity);
+            showExplosion();
             electron.GetComponent<Renderer>().enabled = false;
             gameObject.GetComponent<Renderer>().enabled = false;
         }
     }
 
-    IEnumerator SpawnJpsi(){
+    private void showJpsi()
+    {
+        jpsi.SetActive(true);
+    }
+
+    private void showExplosion()
+    {
+        explosion.SetActive(true);
+    }
+
+    IEnumerator SpawnJpsi()
+    {
         yield return new WaitForSeconds(2.0f);
-        GameObject jpsiObject = Instantiate(jpsi, new Vector3(5, 0.2f, 0), Quaternion.Euler(-90, 90, 0));
-        jpsiObject.transform.localScale = new Vector3(25f, 25f, 25f);
-        Destroy(gameObject);
-        Destroy(electron);
+        showJpsi();
     }
 }

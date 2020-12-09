@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 47440494610276568}
   - component: {fileID: 47440494610276391}
   - component: {fileID: 47440494610276390}
-  - component: {fileID: 47440494610276389}
-  - component: {fileID: 2068650878}
   - component: {fileID: 2068650877}
+  - component: {fileID: 5612194194303884567}
+  - component: {fileID: 5995916755213697990}
   m_Layer: 0
   m_Name: Positron
   m_TagString: Untagged
@@ -84,20 +84,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &47440494610276389
-SphereCollider:
+--- !u!114 &2068650877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47440494610276388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cb26eff57a880544bbd8c63a578c65b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  electron: {fileID: 0}
+  explosion: {fileID: 7081155179039739808, guid: e8a5d173f7f8d5b44820278ba07be447, type: 3}
+  jpsi: {fileID: 4819033321070998509, guid: d824ee3b0a9c947489e43116cf04f956, type: 3}
+--- !u!65 &5612194194303884567
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 47440494610276388}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.3
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &2068650878
+--- !u!54 &5995916755213697990
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -113,18 +128,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2068650877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 47440494610276388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cb26eff57a880544bbd8c63a578c65b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  electron: {fileID: 0}
-  explosion: {fileID: 0}
-  jpsi: {fileID: 0}
