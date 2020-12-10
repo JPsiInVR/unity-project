@@ -9,7 +9,7 @@ public class ElectronMovement : MonoBehaviour
 
     private float speed = 0.5f;
 
-    void Update()
+    void LateUpdate()
     {
         speed *= 1.02f;
         float step = speed * Time.deltaTime;

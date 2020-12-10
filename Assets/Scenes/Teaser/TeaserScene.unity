@@ -5533,7 +5533,7 @@ PrefabInstance:
       objectReference: {fileID: 937818356}
     - target: {fileID: 924769590, guid: 8eb795913e02d3642b39e902d8484ffe, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5324143199890688986, guid: 8eb795913e02d3642b39e902d8484ffe, type: 3}
       propertyPath: m_RootOrder
@@ -5573,7 +5573,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5324143199890688986, guid: 8eb795913e02d3642b39e902d8484ffe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5324143199890688986, guid: 8eb795913e02d3642b39e902d8484ffe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -5608,6 +5608,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
   m_Center: {x: 0, y: 0, z: -0.0000038146973}
+--- !u!95 &793002131
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793002126}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f062c3aff9c33dc43975729f65dd3e86, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &806422594
 GameObject:
   m_ObjectHideFlags: 0
@@ -6765,7 +6784,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 47440494610276568, guid: 5d1661673cbce1148a665b4907c26b9b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 47440494610276568, guid: 5d1661673cbce1148a665b4907c26b9b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -7945,6 +7964,8 @@ PlayableDirector:
     value: {fileID: 811745532}
   - key: {fileID: 1445125138803673886, guid: d79b28accc50a094faa4228cc796d754, type: 2}
     value: {fileID: 937818357}
+  - key: {fileID: 8253728519070689846, guid: d79b28accc50a094faa4228cc796d754, type: 2}
+    value: {fileID: 793002131}
   m_ExposedReferences:
     m_References:
     - 96de86e9a8f12054baea907fbae8e816: {fileID: 491528336}
@@ -12316,7 +12337,7 @@ MonoBehaviour:
     roll: 0
   - position: {x: -11.8, y: 12, z: -145.29367}
     roll: 0
-  - position: {x: -11.8, y: 17, z: 7.821913}
+  - position: {x: -11.8, y: 17, z: 3}
     roll: 0
 --- !u!4 &1875199736
 Transform:

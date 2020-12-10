@@ -32,8 +32,7 @@ public class PositronMovement : MonoBehaviour
         {
             StartCoroutine(SpawnJpsi());
             showExplosion();
-            electron.GetComponent<Renderer>().enabled = false;
-            gameObject.GetComponent<Renderer>().enabled = false;
+
         }
     }
 
@@ -49,7 +48,10 @@ public class PositronMovement : MonoBehaviour
 
     IEnumerator SpawnJpsi()
     {
-        yield return new WaitForSeconds(2.0f);
+        yield return new WaitForSeconds(1); 
+        electron.GetComponent<Renderer>().enabled = false;
+        gameObject.GetComponent<Renderer>().enabled = false;
+        yield return new WaitForSeconds(1.25f);
         showJpsi();
     }
 }
