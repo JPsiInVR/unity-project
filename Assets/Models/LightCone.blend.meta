@@ -1,24 +1,9 @@
 fileFormatVersion: 2
-guid: 287a173b0d3b692438598ef598305deb
+guid: a761caf99be0bd0439a37cbbd2971b75
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Eyes
-    second: {fileID: 2100000, guid: c84eb0d75170a0f41a4971cf78b844fc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Pupils
-    second: {fileID: 2100000, guid: 8d6ee0bc0f152a84582aaaa5dc5c11d8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: mainColour
-    second: {fileID: 2100000, guid: be9db2da1337e864da39f10521de7482, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0
