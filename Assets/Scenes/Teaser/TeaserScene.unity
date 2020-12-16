@@ -230,13 +230,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dmeson
       objectReference: {fileID: 0}
+    - target: {fileID: 352952726057511929, guid: 04123604ce281af4fbdcc0decdbe68cb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1129875805205803331, guid: 04123604ce281af4fbdcc0decdbe68cb, type: 3}
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1129875805205803331, guid: 04123604ce281af4fbdcc0decdbe68cb, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.72883
+      value: 0.728
       objectReference: {fileID: 0}
     - target: {fileID: 1129875805205803331, guid: 04123604ce281af4fbdcc0decdbe68cb, type: 3}
       propertyPath: m_LocalScale.y
@@ -10895,8 +10899,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080128568}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.799999, y: 68.228134, z: -287.34998}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 0.91989213}
+  m_LocalPosition: {x: -1349.6422, y: 10.599755, z: -1257.354}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -11067,6 +11071,8 @@ PlayableDirector:
     value: {fileID: 1080128575}
   - key: {fileID: -999819057126485717, guid: d79b28accc50a094faa4228cc796d754, type: 2}
     value: {fileID: 0}
+  - key: {fileID: 4796253324988016269, guid: d79b28accc50a094faa4228cc796d754, type: 2}
+    value: {fileID: 2074652331}
   m_ExposedReferences:
     m_References:
     - 3385865f10b871e4d8199be44e30c661: {fileID: 831429948}
@@ -19641,6 +19647,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2074652329}
   - component: {fileID: 2074652330}
+  - component: {fileID: 2074652331}
   m_Layer: 0
   m_Name: Spot Light (4)
   m_TagString: Untagged
@@ -19655,7 +19662,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2074652328}
-  m_LocalRotation: {x: 0.17865866, y: -0, z: -0, w: 0.98391116}
+  m_LocalRotation: {x: 0.17865865, y: 0, z: 0, w: 0.9839111}
   m_LocalPosition: {x: -3.3000488, y: 18.16, z: -55.51001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -19723,6 +19730,25 @@ Light:
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!95 &2074652331
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074652328}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2078387344
 GameObject:
   m_ObjectHideFlags: 0
@@ -20396,6 +20422,10 @@ PrefabInstance:
     - target: {fileID: 1578325024744116967, guid: 4cc215f031fb6ee44a2ceb45850d85b9, type: 3}
       propertyPath: m_Name
       value: Keon
+      objectReference: {fileID: 0}
+    - target: {fileID: 1578325024744116967, guid: 4cc215f031fb6ee44a2ceb45850d85b9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2210289487299987549, guid: 4cc215f031fb6ee44a2ceb45850d85b9, type: 3}
       propertyPath: m_RootOrder
