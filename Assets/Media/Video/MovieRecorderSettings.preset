@@ -6,7 +6,7 @@ Preset:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TeaserRecorderSettings
+  m_Name: MovieRecorderSettings
   m_TargetType:
     m_NativeTypeID: 114
     m_ManagedTypePPtr: {fileID: 11500000, guid: 6fde0a8ac3e6b482c95fa602e65ab045, type: 3}
@@ -30,7 +30,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: take
-    value: 17
+    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: captureEveryNthFrame
@@ -54,7 +54,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: fileNameGenerator.m_FileName
-    value: J_PSI_VR_Final_Teaser
+    value: movie_<Take>
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: outputFormat
@@ -102,7 +102,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_ImageInputSelector.m_Selected
-    value: gameViewInputSettings
+    value: camera360InputSettings
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_ImageInputSelector.gameViewInputSettings.m_OutputResolution.m_CustomWidth
@@ -114,7 +114,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_ImageInputSelector.gameViewInputSettings.m_OutputResolution.imageHeight
-    value: 1080
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_ImageInputSelector.gameViewInputSettings.m_OutputResolution.maxSupportedHeight
@@ -150,7 +150,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_ImageInputSelector.cameraInputSettings.m_OutputResolution.maxSupportedHeight
-    value: 2160
+    value: 4320
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_ImageInputSelector.cameraInputSettings.m_OutputResolution.m_AspectRatio.m_CustomAspectX
