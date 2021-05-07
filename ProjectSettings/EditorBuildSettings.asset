@@ -4,5 +4,9 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/VRTest.unity
+    guid: 145a2a45d7bc746b19cb68410368bf96
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 50fcd8412ee23454b9f5acc671fb412b, type: 2}
