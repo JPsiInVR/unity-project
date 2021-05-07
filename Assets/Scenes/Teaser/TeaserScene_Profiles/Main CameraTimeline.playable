@@ -8109,7 +8109,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: 5351858962308948931}
   m_Children: []
   m_Clips: []
   m_Markers:
@@ -8146,8 +8146,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Version: 0
   m_Tracks:
-  - {fileID: -22862713656358322}
-  - {fileID: 2631175555037167200}
   - {fileID: 5351858962308948931}
   - {fileID: 2941007835012440938}
   - {fileID: -8318152690016895865}
@@ -8912,7 +8910,7 @@ MonoBehaviour:
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
-  m_Parent: {fileID: 11400000}
+  m_Parent: {fileID: 5351858962308948931}
   m_Children: []
   m_Clips: []
   m_Markers:
@@ -10383,6 +10381,8 @@ MonoBehaviour:
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
   m_Children:
+  - {fileID: 2631175555037167200}
+  - {fileID: -22862713656358322}
   - {fileID: -4183215590179203839}
   - {fileID: 1863730642100755040}
   - {fileID: -7043135788856645151}
