@@ -16,7 +16,8 @@ This repository contains unity project with all assets,  which will be used in V
     + [Lock/Unlock file](#lockunlock-file)
 - [Troubleshooting](#troubleshooting)
 - [Cloud build](#cloud-build)
-
+  * [Accessing cloud build](#accessing-cloud-build)
+  * [Basic functions](#basic-functions)
 ## Requirements
 * [Blender](https://www.blender.org/download/) is required, because without it unity won`t be able to open .blend files.
 * [Unity 2020.1.15f1](https://unity3d.com/get-unity/download) - Unity version we lock to. If you have different version you can download this one through unity hub and delete the old one.
@@ -142,8 +143,10 @@ After that select our project.
 This tool is very intuitive, so I will only cover basics.
 To access builds select build history in the menu. You will see something like this:
 ![obraz](https://user-images.githubusercontent.com/15947565/117861484-c6c91100-b291-11eb-9957-a519393f3ed2.png)
-On this tab you can see status of builds (Failed, Success, In Progress). You can also access logs to see errors and warnings. Unity cloud allows us to generate sharing links and qr codes to download builds, I enabled it for every build by default and you can access it through details section on the right side: 
+On this tab you can see status of builds (Failed, Success, In Progress). You can also access logs to see errors and warnings. Unity cloud allows us to generate sharing links and qr codes to download builds, I enabled it for every build by default and you can access it through details section on the right side:
+
 ![obraz](https://user-images.githubusercontent.com/15947565/117862217-b2d1df00-b292-11eb-8c8f-03f02bb5bd71.png)
+
 You can also generate links/qr-code manually by clicking three dots next to the build and clicking share link in the context menu:
 ![obraz](https://user-images.githubusercontent.com/15947565/117862463-f7f61100-b292-11eb-9e98-4265d6450703.png)
 
