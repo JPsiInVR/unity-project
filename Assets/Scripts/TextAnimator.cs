@@ -1,57 +1,36 @@
-using System.Collections;
 using UnityEngine;
 using TMPro;
 
-[RequireComponent(typeof(TextMeshPro))]
 public class TextAnimator : MonoBehaviour
 {
     [SerializeField]
-    [Range(0, 1)]
-    private float minOutlineThickness;
+    private Material material;
 
     [SerializeField]
-    [Range(0, 1)]
-    private float maxOutlineThickness;
-
+    private Vector4 MaxOffset;
     [SerializeField]
-    private float minFontSize;
-
+    private float FrameTime;
     [SerializeField]
-    private float maxFontSize;
-
+    private int FrameCount;
     [SerializeField]
-    private float minPosition;
-
+    private Vector4 NoiseScale;
     [SerializeField]
-    private float maxPosition;
+    private bool doodleEnabled;
 
-    [SerializeField]
-    private float animationDelay;
-
-    private TextMeshPro textMesh;
-    private WaitForSeconds waitTime;
-    private Vector3 startPosition;
-
-    private void Start()
+    private void Update()
     {
-        textMesh = GetComponent<TextMeshPro>();
-        waitTime = new WaitForSeconds(animationDelay);
-        startPosition = gameObject.transform.position;
-        StartCoroutine(AnimateText());
-    }
+        material.SetVector("_DoodleMaxOffset", MaxOffset);
+        material.SetFloat("_DoodleFrameTime", FrameTime);
+        material.SetInt("_DoodleFrameCount", FrameCount);
+        material.SetVector("_DoodleNoiseScale", NoiseScale);
 
-    private IEnumerator AnimateText() {
-
-        while (true)
+        if(doodleEnabled)
         {
-            yield return waitTime;
-            textMesh.outlineWidth = Random.Range(minOutlineThickness, maxOutlineThickness);
-            textMesh.fontSize = Random.Range(minFontSize, maxFontSize);
-            gameObject.transform.position = new Vector3(
-                startPosition.x + Mathf.Sin(Random.Range(minPosition, maxPosition)),
-                startPosition.y + Mathf.Sin(Random.Range(minPosition, maxPosition)),
-                startPosition.z
-            );
+            material.EnableKeyword("DOODLE_ON");
+        }
+        else
+        {
+            material.DisableKeyword("DOODLE_ON");
         }
     }
 }

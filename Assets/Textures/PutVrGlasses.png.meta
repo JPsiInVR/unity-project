@@ -1,0 +1,1608 @@
+fileFormatVersion: 2
+guid: f2494dded04b4ca459cbaa9b076fff74
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4673219902488132727
+    second: PutVrGlasses_0
+  - first:
+      213: 2090755457954405156
+    second: PutVrGlasses_1
+  - first:
+      213: -1100390005613470573
+    second: PutVrGlasses_2
+  - first:
+      213: -1035269625609163791
+    second: PutVrGlasses_3
+  - first:
+      213: 7445303031606113523
+    second: PutVrGlasses_4
+  - first:
+      213: -3606177173060718872
+    second: PutVrGlasses_5
+  - first:
+      213: 4677377118809976105
+    second: PutVrGlasses_6
+  - first:
+      213: -2237752624400589979
+    second: PutVrGlasses_7
+  - first:
+      213: 6906749629262335211
+    second: PutVrGlasses_8
+  - first:
+      213: 3680795678520608223
+    second: PutVrGlasses_9
+  - first:
+      213: 5455165174931840646
+    second: PutVrGlasses_10
+  - first:
+      213: -5550729405747047222
+    second: PutVrGlasses_11
+  - first:
+      213: 4951491556555111108
+    second: PutVrGlasses_12
+  - first:
+      213: 2685967498597037278
+    second: PutVrGlasses_13
+  - first:
+      213: 8015187947660800784
+    second: PutVrGlasses_14
+  - first:
+      213: 3635502869401664419
+    second: PutVrGlasses_15
+  - first:
+      213: -8087653709067567208
+    second: PutVrGlasses_16
+  - first:
+      213: 6088581158357557295
+    second: PutVrGlasses_17
+  - first:
+      213: -4568089166012204859
+    second: PutVrGlasses_18
+  - first:
+      213: -4854910106174027973
+    second: PutVrGlasses_19
+  - first:
+      213: 3659585244785161987
+    second: PutVrGlasses_20
+  - first:
+      213: 28902262379708417
+    second: PutVrGlasses_21
+  - first:
+      213: 716504019228352919
+    second: PutVrGlasses_22
+  - first:
+      213: -6274949298662390351
+    second: PutVrGlasses_23
+  - first:
+      213: -8577298860391389672
+    second: PutVrGlasses_24
+  - first:
+      213: 2785258048546108270
+    second: PutVrGlasses_25
+  - first:
+      213: -6633773604662007669
+    second: PutVrGlasses_26
+  - first:
+      213: -5425271064573344158
+    second: PutVrGlasses_27
+  - first:
+      213: -3789358557542720048
+    second: PutVrGlasses_28
+  - first:
+      213: -7574862648651131987
+    second: PutVrGlasses_29
+  - first:
+      213: -8243601599007777257
+    second: PutVrGlasses_30
+  - first:
+      213: -8679408653304516972
+    second: PutVrGlasses_31
+  - first:
+      213: 2552372872464022592
+    second: PutVrGlasses_32
+  - first:
+      213: -1222504950603589845
+    second: PutVrGlasses_33
+  - first:
+      213: 3161356841474940801
+    second: PutVrGlasses_34
+  - first:
+      213: 2214565422447686375
+    second: PutVrGlasses_35
+  - first:
+      213: -1430982641805747702
+    second: PutVrGlasses_36
+  - first:
+      213: -6538916261777508910
+    second: PutVrGlasses_37
+  - first:
+      213: -6163380811294508128
+    second: PutVrGlasses_38
+  - first:
+      213: 4792838365590896855
+    second: PutVrGlasses_39
+  - first:
+      213: -1094922972915363385
+    second: PutVrGlasses_40
+  - first:
+      213: 2335666282685851489
+    second: PutVrGlasses_41
+  - first:
+      213: 8461246555491174859
+    second: PutVrGlasses_42
+  - first:
+      213: -43006384097627736
+    second: PutVrGlasses_43
+  - first:
+      213: -1249122417074271536
+    second: PutVrGlasses_44
+  - first:
+      213: -5816044162674430181
+    second: PutVrGlasses_45
+  - first:
+      213: 5496231422027704552
+    second: PutVrGlasses_46
+  - first:
+      213: -7881149880718551225
+    second: PutVrGlasses_47
+  - first:
+      213: 8913038200225786253
+    second: PutVrGlasses_48
+  - first:
+      213: 8615565400566750682
+    second: PutVrGlasses_49
+  - first:
+      213: 9217555177943730534
+    second: PutVrGlasses_50
+  - first:
+      213: -5380369854682044452
+    second: PutVrGlasses_51
+  - first:
+      213: 8708098563528656275
+    second: PutVrGlasses_52
+  - first:
+      213: -2343111165218819861
+    second: PutVrGlasses_53
+  - first:
+      213: -5823659345784703246
+    second: PutVrGlasses_54
+  - first:
+      213: 8762064468847726187
+    second: PutVrGlasses_55
+  - first:
+      213: 7695379313090411111
+    second: PutVrGlasses_56
+  - first:
+      213: 5179468866358236077
+    second: PutVrGlasses_57
+  - first:
+      213: -5484900549927304329
+    second: PutVrGlasses_58
+  - first:
+      213: 4289135104850580794
+    second: PutVrGlasses_59
+  - first:
+      213: 8317183166807366295
+    second: PutVrGlasses_60
+  - first:
+      213: 3331064210491323060
+    second: PutVrGlasses_61
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PutVrGlasses_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2555
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c3715ddbc9ad040800000000000000
+      internalID: 4673219902488132727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2555
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bd49ff20bd30d10800000000000000
+      internalID: 2090755457954405156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_2
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 2555
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39cd409be11aab0f0800000000000000
+      internalID: -1100390005613470573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_3
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 2555
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb60d6b2cbf1a1f0800000000000000
+      internalID: -1035269625609163791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2385
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4750c09a7035760800000000000000
+      internalID: 7445303031606113523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2385
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eee79aa7f844fdc0800000000000000
+      internalID: -3606177173060718872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_6
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 2385
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d653f25b169e040800000000000000
+      internalID: 4677377118809976105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_7
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 2385
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b976f18d7e1f0e0800000000000000
+      internalID: -2237752624400589979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2215
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec0ebcb134b9df50800000000000000
+      internalID: 6906749629262335211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_9
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2215
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5830dfa20d41330800000000000000
+      internalID: 3680795678520608223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_10
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 2215
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ed4eae2d3a4bb40800000000000000
+      internalID: 5455165174931840646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_11
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 2215
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4d126b309d7f2b0800000000000000
+      internalID: -5550729405747047222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2045
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca30d8265b37b440800000000000000
+      internalID: 4951491556555111108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_13
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2045
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4fe188539764520800000000000000
+      internalID: 2685967498597037278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_14
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 2045
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013705cd8faab3f60800000000000000
+      internalID: 8015187947660800784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_15
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 2045
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab79961996e37230800000000000000
+      internalID: 3635502869401664419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1875
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f38a44dc1e2cf80800000000000000
+      internalID: -8087653709067567208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_17
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1875
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20e90a0e4cfe7450800000000000000
+      internalID: 6088581158357557295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_18
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1875
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c838853b13ea90c0800000000000000
+      internalID: -4568089166012204859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_19
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1875
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b370b091bf4ef9cb0800000000000000
+      internalID: -4854910106174027973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1705
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3073eac046579c230800000000000000
+      internalID: 3659585244785161987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_21
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1705
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100095a547ea66000800000000000000
+      internalID: 28902262379708417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_22
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1705
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791ee3afb9881f900800000000000000
+      internalID: 716504019228352919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_23
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1705
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b544a5ebd6eae8a0800000000000000
+      internalID: -6274949298662390351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1535
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8162206812057f880800000000000000
+      internalID: -8577298860391389672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_25
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1535
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63736f207937a620800000000000000
+      internalID: 2785258048546108270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_26
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1535
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8822c5cd0a10f3a0800000000000000
+      internalID: -6633773604662007669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_27
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1535
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26686e906b095b4b0800000000000000
+      internalID: -5425271064573344158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_28
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1365
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd5413087e796bc0800000000000000
+      internalID: -3789358557542720048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_29
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1365
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da356cced8ea0e690800000000000000
+      internalID: -7574862648651131987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_30
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1365
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e9c4da508d89d80800000000000000
+      internalID: -8243601599007777257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_31
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1365
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e2557b0db8c8780800000000000000
+      internalID: -8679408653304516972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_32
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1195
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04cbf8dba99db6320800000000000000
+      internalID: 2552372872464022592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_33
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1195
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27dd1b793ac80fe0800000000000000
+      internalID: -1222504950603589845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_34
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1195
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f5d583c456fdb20800000000000000
+      internalID: 3161356841474940801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_35
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1195
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e27bd8b487bbbe10800000000000000
+      internalID: 2214565422447686375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_36
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1025
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a1b637ed0242ce0800000000000000
+      internalID: -1430982641805747702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_37
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1025
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5f9b8fd4a1145a0800000000000000
+      internalID: -6538916261777508910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_38
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1025
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abf45f9ec5477aa0800000000000000
+      internalID: -6163380811294508128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_39
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1025
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0c8e69915938240800000000000000
+      internalID: 4792838365590896855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_40
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 855
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c117f67b5d0ec0f0800000000000000
+      internalID: -1094922972915363385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_41
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 855
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167e855fb14f96020800000000000000
+      internalID: 2335666282685851489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_42
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 855
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc98c01a9e26c6570800000000000000
+      internalID: 8461246555491174859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_43
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 855
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a179c8ebe5376ff0800000000000000
+      internalID: -43006384097627736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_44
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 685
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da8f41a7c93aaee0800000000000000
+      internalID: -1249122417074271536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_45
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 685
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f6ec516a2494fa0800000000000000
+      internalID: -5816044162674430181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_46
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 685
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e82d49ab59864c40800000000000000
+      internalID: 5496231422027704552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_47
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 685
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747982a80f780a290800000000000000
+      internalID: -7881149880718551225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_48
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 515
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89e1f1150971bb70800000000000000
+      internalID: 8913038200225786253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_49
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 515
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add5de7a513a09770800000000000000
+      internalID: 8615565400566750682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_50
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 515
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66906eef8955bef70800000000000000
+      internalID: 9217555177943730534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_51
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 515
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7e473af161555b0800000000000000
+      internalID: -5380369854682044452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_52
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 345
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395073c818169d870800000000000000
+      internalID: 8708098563528656275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_53
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 345
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be071ef3fc89b7fd0800000000000000
+      internalID: -2343111165218819861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_54
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 345
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f67e991ea43e2fa0800000000000000
+      internalID: -5823659345784703246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_55
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 345
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e8db4063b199970800000000000000
+      internalID: 8762064468847726187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_56
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 175
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ab4a0a6ba7bca60800000000000000
+      internalID: 7695379313090411111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_57
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 175
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da35a70fd7b21e740800000000000000
+      internalID: 5179468866358236077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_58
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 175
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7730d359208b1e3b0800000000000000
+      internalID: -5484900549927304329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_59
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 175
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35d64e27a1168b30800000000000000
+      internalID: 4289135104850580794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_60
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a596d16029c6370800000000000000
+      internalID: 8317183166807366295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PutVrGlasses_61
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 5
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b23a5e20415a3e20800000000000000
+      internalID: 3331064210491323060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f1e3238d5a41faf41a933b9b67015a76
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

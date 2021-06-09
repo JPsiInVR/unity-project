@@ -44,7 +44,7 @@ public class XRCardboardController : MonoBehaviour
         if (camera == null)
             camera = Camera.main;
 
-        SetupCardboard();
+        //SetupCardboard();
 
         if (makeAllButtonsClickable)
             _MakeAllButtonsClickable();
