@@ -12,6 +12,7 @@ public class MenuController : MonoBehaviour
 
     private List<Menu> Menus;
     private Hashtable MenusByType { get; set; }
+    private Coroutine coroutine;
 
     private void Awake()
     {
@@ -95,12 +96,16 @@ public class MenuController : MonoBehaviour
 
         if (enableType != MenuType.None)
         {
-
-            if (waitForAnimationEnd)
+            if (waitForAnimationEnd && disablePage.UseAnimation)
             {
                 Menu enablePage = GetMenu(enableType);
 
-                StartCoroutine(WaitForMenuExit(enablePage, disablePage));
+                if (coroutine != null)
+                {
+                    StopCoroutine(coroutine);
+                }
+
+                coroutine = StartCoroutine(WaitForMenuExit(enablePage, disablePage));
             }
             else
             {

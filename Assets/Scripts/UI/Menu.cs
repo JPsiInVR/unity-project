@@ -9,6 +9,7 @@ public abstract class Menu : MonoBehaviour
 
     public MenuType Type { get => type; private set => type = value; }
     public string TargetState { get; protected set; }
+    public bool UseAnimation { get => useAnimation; }
 
 
     [SerializeField]
@@ -18,6 +19,7 @@ public abstract class Menu : MonoBehaviour
     private bool useAnimation;
 
     private Animator animator;
+    private Coroutine coroutine;
 
     public void Animate(bool enable)
     {
@@ -25,7 +27,12 @@ public abstract class Menu : MonoBehaviour
         {
             animator.SetBool("Enabled", enable);
 
-            StartCoroutine(AwaitAnimation(enable));
+            if(coroutine != null)
+            {
+                StopCoroutine(coroutine);
+            }
+
+            coroutine = StartCoroutine(AwaitAnimation(enable));
         }
         else if (!enable)
         {
@@ -50,6 +57,7 @@ public abstract class Menu : MonoBehaviour
         }
 
         TargetState = InitialState;
+        coroutine = null;
 
         if (!enable)
         {
@@ -62,7 +70,6 @@ public abstract class Menu : MonoBehaviour
         if (useAnimation)
         {
             animator = GetComponent<Animator>();
-
             if (!animator)
             {
                 Debug.LogWarning("Komponent animator nie jest umieszczony na obiekcie, który chcesz animowaæ");
