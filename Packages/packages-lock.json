@@ -8,7 +8,7 @@
         "com.unity.xr.management": "3.2.9",
         "com.unity.xr.legacyinputhelpers": "2.1.4"
       },
-      "hash": "bca15f76c8940f5fa126eae023d4a92695c86d9b"
+      "hash": "48e5eafae7d60bf65b5be9435a70b7234a474062"
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
@@ -17,7 +17,7 @@
       "dependencies": {}
     },
     "com.unity.cinemachine": {
-      "version": "2.7.3",
+      "version": "2.7.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -255,7 +255,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.management": {
-      "version": "4.0.5",
+      "version": "4.0.6",
       "depth": 0,
       "source": "registry",
       "dependencies": {
