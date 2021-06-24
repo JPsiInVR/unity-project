@@ -74,7 +74,7 @@ Material:
     - _StarMapYSpeed: -0.03
     m_Colors:
     - Color_1: {r: 0.0754717, g: 0.030188678, b: 0.07545783, a: 0}
-    - CosmosScrollSpeed: {r: 0, g: 0.01, b: 0, a: 0}
+    - CosmosScrollSpeed: {r: 0.03, g: -0.03, b: 0, a: 0}
     - CosmosTiling: {r: 2.09, g: 1.1, b: 0, a: 0}
     - ScrollSpeed: {r: 0, g: 0.2, b: 0, a: 0}
     - StarsTiling: {r: 2, g: 2, b: 0, a: 0}

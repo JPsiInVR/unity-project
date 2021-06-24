@@ -1,27 +1,34 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-#if !UNITY_EDITOR
+﻿#if !UNITY_EDITOR
 using Google.XR.Cardboard;
 #endif
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-// XR Cardboard controller and interactor
 public class XRCardboardController : MonoBehaviour
 {
-    public bool makeAllButtonsClickable = true;
-    public bool raycastEveryUpdate = true;
-    public LayerMask interactablesLayers = -1;
-    public float gazeTime;
+    public static XRCardboardController Instance { get; private set; }
 
     public UnityEvent OnTriggerPressed = new UnityEvent();
-    
-    private Camera camera;
-    private GameObject _gazedAtObject = null;
-    private const float MAX_DISTANCE = 10;
 
-    public static XRCardboardController Instance { get; private set; }
+    [SerializeField]
+    private bool _makeAllButtonsClickable = true;
+    [SerializeField]
+    private bool _raycastEveryUpdate = true;
+    [SerializeField]
+    private LayerMask _interactablesLayers = -1;
+    [SerializeField]
+    private float _gazeTime;
+    [SerializeField]
+    private GraphicRaycaster _graphicRaycaster;
+    [SerializeField]
+    private EventSystem _eventSystem;
+
+    private bool _foundInteractable = false;
+    private GameObject _gazedAtObject = null;
+    private const float MAX_RAYCAST_DISTANCE = 10;
 
     private void Awake()
     {
@@ -36,36 +43,27 @@ public class XRCardboardController : MonoBehaviour
     private void OnDestroy()
     {
         if (Instance == this)
+        {
             Instance = null;
-    }
-
-    private void Start()
-    {
-        if (camera == null)
-            camera = Camera.main;
-
-        //SetupCardboard();
-
-        if (makeAllButtonsClickable)
-            _MakeAllButtonsClickable();
+        }
     }
 
     private void Update()
     {
-        if (raycastEveryUpdate)
+        if (_raycastEveryUpdate)
         {
-            _CastForInteractables();
+            CastForInteractables();
         }
 
         if (IsTriggerPressed())
         {
-            OnClick();
+            OnTriggerPressed.Invoke();
         }
 
 #if !UNITY_EDITOR
         if (Api.IsCloseButtonPressed)
         {
-            ApplicationQuit();
+            //ApplicationQuit();
         }
 
         if (Api.IsGearButtonPressed)
@@ -80,67 +78,6 @@ public class XRCardboardController : MonoBehaviour
 #endif
     }
 
-    public void OnClick()
-    {
-        //Debug.Log("**** in OnClick");
-        OnTriggerPressed.Invoke();
-    }
-
-    public void ApplicationQuit()
-    {
-        Application.Quit();
-    }
-
-
-    private void SetupCardboard()
-    {
-#if !UNITY_EDITOR
-        // Configures the app to not shut down the screen and sets the brightness to maximum.
-        // Brightness control is expected to work only in iOS, see:
-        // https://docs.unity3d.com/ScriptReference/Screen-brightness.html.
-        Screen.sleepTimeout = SleepTimeout.NeverSleep;
-        Screen.brightness = 1.0f;
-
-        // Checks if the device parameters are stored and scans them if not.
-        if (!Api.HasDeviceParams())
-        {
-            Api.ScanDeviceParams();
-        }
-#endif
-    }
-
-    private void _MakeAllButtonsClickable()
-    {
-        Button[] buttons = FindObjectsOfType<Button>();
-        for (int i = 0; i < buttons.Length; i++)
-        {
-            buttons[i].gameObject.AddComponent<CardboardButtonClickable>();
-        }
-    }
-
-    private void _CastForInteractables()
-    {
-        RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.forward, out hit, MAX_DISTANCE, interactablesLayers))
-        {
-            // GameObject detected in front of the camera.
-            if (_gazedAtObject != hit.transform.gameObject)
-            {
-                Debug.Log("New gazed object: " + hit.transform.gameObject.name);
-
-                _gazedAtObject?.SendMessage("PointerExit");
-                _gazedAtObject = hit.transform.gameObject;
-                _gazedAtObject.SendMessage("PointerEnter");
-            }
-        }
-        else
-        {
-            // No GameObject detected in front of the camera.
-            _gazedAtObject?.SendMessage("PointerExit");
-            _gazedAtObject = null;
-        }
-    }
-    
     public bool IsTriggerPressed()
     {
 #if UNITY_EDITOR
@@ -148,5 +85,59 @@ public class XRCardboardController : MonoBehaviour
 #else
         return (Api.IsTriggerPressed || Input.GetMouseButtonDown(0));
 #endif
+    }
+
+    private void CastForInteractables()
+    {
+        if (!CastForUIObjects())
+        {
+            if (!CastForColliderObjects())
+            {
+                _gazedAtObject?.SendMessage("PointerExit");
+                _gazedAtObject = null;
+            }
+        }
+    }
+
+    private bool CastForUIObjects()
+    {
+        PointerEventData pointerEventData = new PointerEventData(_eventSystem);
+        List<RaycastResult> results = new List<RaycastResult>();
+
+        pointerEventData.position = Camera.main.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
+        _graphicRaycaster.Raycast(pointerEventData, results);
+
+        foreach (RaycastResult raycastResult in results)
+        {
+            if (raycastResult.gameObject.layer == LayerMask.NameToLayer("Interactable"))
+            {
+                HandleInteraction(raycastResult.gameObject);
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    private bool CastForColliderObjects()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, transform.forward, out hit, MAX_RAYCAST_DISTANCE, _interactablesLayers))
+        {
+            HandleInteraction(hit.transform.gameObject);
+            return true;
+        }
+
+        return false;
+    }
+
+    private void HandleInteraction(GameObject interactableGameobject)
+    {
+        if (_gazedAtObject != interactableGameobject)
+        {
+            _gazedAtObject?.SendMessage("PointerExit");
+            _gazedAtObject = interactableGameobject;
+            _gazedAtObject.SendMessage("PointerEnter");
+        }
     }
 }

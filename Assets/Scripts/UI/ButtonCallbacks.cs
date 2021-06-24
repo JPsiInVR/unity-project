@@ -1,28 +1,30 @@
 using UnityEngine;
 using TMPro;
 
+/// <summary>
+/// This class contains all button callbacks.
+/// </summary>
 public class ButtonCallbacks : MonoBehaviour
 {
     [SerializeField]
-    private bool rememberStateWhenDisabled = true;
+    private bool _rememberStateWhenDisabled = true;
 
-    private TextMeshProUGUI text;
-    private Animator animator;
-
+    private TextMeshProUGUI _text;
+    private Animator _animator;
 
     private void Awake()
     {
-        text = GetComponentInChildren<TextMeshProUGUI>();
+        _text = GetComponentInChildren<TextMeshProUGUI>();
 
-        animator = GetComponent<Animator>();
-        if(animator != null)
+        _animator = GetComponent<Animator>();
+        if(_animator != null)
         {
-            animator.keepAnimatorControllerStateOnDisable = rememberStateWhenDisabled;
+            _animator.keepAnimatorControllerStateOnDisable = _rememberStateWhenDisabled;
         }
     }
 
     public void ForceTextUpdate()
     {
-        text.UpdateFontAsset();
+        _text.UpdateFontAsset();
     }
 }

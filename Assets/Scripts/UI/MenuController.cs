@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -8,35 +7,34 @@ public class MenuController : MonoBehaviour
     public static MenuController Instance { get; private set; }
     
     [SerializeField]
-    private MenuType DefaultMenu;
+    private MenuType _defaultMenu;
 
-    private List<Menu> Menus;
-    private Hashtable MenusByType { get; set; }
-    private Coroutine coroutine;
+    private Hashtable _menusByType;
+    private Coroutine _menuExitCoroutine;
 
     private void Awake()
     {
         if (!Instance)
         {
             Instance = this;
-            MenusByType = new Hashtable();
-            Menus = GetComponentsInChildren<Menu>(true).ToList();
-            Menus.ForEach(page => page.gameObject.SetActive(false));
+            _menusByType = new Hashtable();
 
-            foreach (Menu page in Menus)
+            foreach (Menu page in GetComponentsInChildren<Menu>(true).ToList())
             {
+                page.gameObject.SetActive(false);
+
                 if (MenuExists(page.Type))
                 {
                     Debug.LogWarning("Strona tego typu ju¿ istnieje");
                     return;
                 }
 
-                MenusByType.Add(page.Type, page);
+                _menusByType.Add(page.Type, page);
             }
 
-            if (DefaultMenu != MenuType.None)
+            if (_defaultMenu != MenuType.None)
             {
-                EnableMenu(DefaultMenu);
+                EnableMenu(_defaultMenu);
             }
 
             DontDestroyOnLoad(gameObject);
@@ -45,6 +43,11 @@ public class MenuController : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public bool IsMenuEnabled(MenuType type)
+    {
+        return MenuExists(type) && GetMenu(type).IsEnabled;
     }
 
     public void EnableMenu(MenuType type)
@@ -100,12 +103,12 @@ public class MenuController : MonoBehaviour
             {
                 Menu enablePage = GetMenu(enableType);
 
-                if (coroutine != null)
+                if (_menuExitCoroutine != null)
                 {
-                    StopCoroutine(coroutine);
+                    StopCoroutine(_menuExitCoroutine);
                 }
 
-                coroutine = StartCoroutine(WaitForMenuExit(enablePage, disablePage));
+                _menuExitCoroutine = StartCoroutine(WaitForMenuExit(enablePage, disablePage));
             }
             else
             {
@@ -132,11 +135,11 @@ public class MenuController : MonoBehaviour
             return null;
         }
 
-        return (Menu)MenusByType[type];
+        return (Menu)_menusByType[type];
     }
 
     private bool MenuExists(MenuType type)
     {
-        return MenusByType.ContainsKey(type);
+        return _menusByType.ContainsKey(type);
     }
 }

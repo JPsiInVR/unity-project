@@ -3,40 +3,45 @@ using UnityEngine;
 
 public abstract class Menu : MonoBehaviour
 {
-    public static readonly string EnabledState = "Enabled";
-    public static readonly string DisabledState = "Disabled";
-    public static readonly string InitialState = "None";
+    public const string EnabledState = "Enabled";
+    public const string DisabledState = "Disabled";
+    public const string InitialState = "None";
 
-    public MenuType Type { get => type; private set => type = value; }
+    public MenuType Type { get => _type; private set => _type = value; }
     public string TargetState { get; protected set; }
-    public bool UseAnimation { get => useAnimation; }
+    public bool UseAnimation { get => _useAnimation; private set => _useAnimation = value; }
+    public bool IsEnabled { get; private set; }
 
 
     [SerializeField]
-    private MenuType type;
-
+    private MenuType _type;
     [SerializeField]
-    private bool useAnimation;
+    private bool _useAnimation;
 
-    private Animator animator;
-    private Coroutine coroutine;
+    private Animator _animator;
+    private Coroutine _animationCoroutine;
 
     public void Animate(bool enable)
     {
-        if (useAnimation)
+        if (_useAnimation)
         {
-            animator.SetBool("Enabled", enable);
+            _animator.SetBool("Enabled", enable);
 
-            if(coroutine != null)
+            if(_animationCoroutine != null)
             {
-                StopCoroutine(coroutine);
+                StopCoroutine(_animationCoroutine);
             }
 
-            coroutine = StartCoroutine(AwaitAnimation(enable));
+            _animationCoroutine = StartCoroutine(AwaitAnimation(enable));
         }
-        else if (!enable)
+        else
         {
-            gameObject.SetActive(false);
+            IsEnabled = enable;
+
+            if (!enable)
+            {
+                gameObject.SetActive(false);
+            }
         }
     }
 
@@ -45,19 +50,21 @@ public abstract class Menu : MonoBehaviour
         TargetState = enable ? EnabledState : DisabledState;
 
 
-        while (!animator.GetCurrentAnimatorStateInfo(0).IsName(TargetState))
+        while (!_animator.GetCurrentAnimatorStateInfo(0).IsName(TargetState))
         {
             yield return null;
         }
 
         //If it hits 1 it means that animation finished
-        while (animator.GetCurrentAnimatorStateInfo(0).normalizedTime < 1)
+        while (_animator.GetCurrentAnimatorStateInfo(0).normalizedTime < 1)
         {
             yield return null;
         }
 
         TargetState = InitialState;
-        coroutine = null;
+        _animationCoroutine = null;
+
+        IsEnabled = enable;
 
         if (!enable)
         {
@@ -67,10 +74,10 @@ public abstract class Menu : MonoBehaviour
 
     protected virtual void OnEnable()
     {
-        if (useAnimation)
+        if (_useAnimation)
         {
-            animator = GetComponent<Animator>();
-            if (!animator)
+            _animator = GetComponent<Animator>();
+            if (!_animator)
             {
                 Debug.LogWarning("Komponent animator nie jest umieszczony na obiekcie, który chcesz animowaæ");
             }

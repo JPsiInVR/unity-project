@@ -6,19 +6,13 @@ public static class ExtensionMethods
     {
         int visibleVertices = meshFilter.mesh.vertexCount;
 
-        Plane[] planes = GeometryUtility.CalculateFrustumPlanes(camera);
-
-        foreach (Plane plane in planes)
+        foreach (Vector3 vertice in meshFilter.mesh.vertices)
         {
-            foreach (Vector3 vertice in meshFilter.mesh.vertices)
+            if (!new Rect(0, .1f, .8f, 1.1f).Contains(camera.WorldToViewportPoint(meshFilter.transform.TransformPoint(vertice))))
             {
-                if (plane.GetDistanceToPoint(meshFilter.transform.TransformPoint(vertice)) < 0)
-                {
-                    visibleVertices--;
-                }
+                visibleVertices--;
             }
         }
-
-        return Mathf.Max(visibleVertices, 0);
+        return visibleVertices;
     }
 }
