@@ -28,7 +28,13 @@ public class XRCardboardController : MonoBehaviour
 
     private bool _foundInteractable = false;
     private GameObject _gazedAtObject = null;
+    private bool _isGraphicRaycasterNotNull;
     private const float MAX_RAYCAST_DISTANCE = 10;
+
+    private void Start()
+    {
+        _isGraphicRaycasterNotNull = _graphicRaycaster != null;
+    }
 
     private void Awake()
     {
@@ -101,21 +107,23 @@ public class XRCardboardController : MonoBehaviour
 
     private bool CastForUIObjects()
     {
-        PointerEventData pointerEventData = new PointerEventData(_eventSystem);
-        List<RaycastResult> results = new List<RaycastResult>();
-
-        pointerEventData.position = Camera.main.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
-        _graphicRaycaster.Raycast(pointerEventData, results);
-
-        foreach (RaycastResult raycastResult in results)
+        if (_isGraphicRaycasterNotNull)
         {
-            if (raycastResult.gameObject.layer == LayerMask.NameToLayer("Interactable"))
+            PointerEventData pointerEventData = new PointerEventData(_eventSystem);
+            List<RaycastResult> results = new List<RaycastResult>();
+
+            pointerEventData.position = Camera.main.ViewportToScreenPoint(new Vector3(0.5f, 0.5f));
+            _graphicRaycaster.Raycast(pointerEventData, results);
+
+            foreach (RaycastResult raycastResult in results)
             {
-                HandleInteraction(raycastResult.gameObject);
-                return true;
+                if (raycastResult.gameObject.layer == LayerMask.NameToLayer("Interactable"))
+                {
+                    HandleInteraction(raycastResult.gameObject);
+                    return true;
+                }
             }
         }
-
         return false;
     }
 

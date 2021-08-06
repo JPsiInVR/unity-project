@@ -17,14 +17,14 @@ public class Billboard : MonoBehaviour
     private float _vertexPercentageVisible;
 
     private void Start()
-    {        
+    {
         _meshFilters = new List<MeshFilter>(GetComponentsInChildren<MeshFilter>());
         _meshRenderers = new List<MeshRenderer>(GetComponentsInChildren<MeshRenderer>());
         _textMeshes = new List<TextMeshPro>(GetComponentsInChildren<TextMeshPro>());
 
         foreach (TextMeshPro textMesh in _textMeshes)
         {
-            textMesh.ForceMeshUpdate();
+            //textMesh.ForceMeshUpdate();
         }
 
         foreach (MeshFilter meshFilter in _meshFilters)
@@ -45,6 +45,7 @@ public class Billboard : MonoBehaviour
         }
 
         _vertexPercentageVisible = (float)_visibleVertexCount / _fullVertexCount;
+
 
         SetAlphaForAllRenderers();
     }

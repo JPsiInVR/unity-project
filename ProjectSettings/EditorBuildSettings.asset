@@ -9,8 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 371d11bc91c1c1c4797a0fdd7f05b841
   - enabled: 1
+    path: Assets/Scenes/Calibration.unity
+    guid: b94a4f47a37170745adac28b30185b40
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: fba2eb8778f724845a62fd1eca5f9ba7
+  - enabled: 0
     path: Assets/Scenes/VRTest.unity
     guid: 145a2a45d7bc746b19cb68410368bf96
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: cef15f40906da474ea712a76ef2f4207, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: de4846b0a3a4a694b92475b232fde55c, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 50fcd8412ee23454b9f5acc671fb412b, type: 2}
